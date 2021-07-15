@@ -21,3 +21,7 @@ That means noone will compare two choices by their expected outcome.
 ## Space Noises
 
 Toying a bit around with wavefile generation in Python. Will output two (ugly) tones, a chirp and a glitchy shepard tone.
+
+## World of Warships Ships
+
+How much XP do I need to get to unlock the next unlockable ships in World of Warships, a game I play a little bit twice a year.
