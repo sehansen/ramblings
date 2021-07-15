@@ -11,3 +11,9 @@ Three strategies are implemented: Go farming everyday, go working for gold every
 ## Lattice Learner
 
 The beginning of an idea I had for a recommendation system. At the moment it's just a semi-implementation of a lattice datastructure in Julia.
+
+## Probability Genes
+
+An attempt at a genetic representation of risk seeking and risk aversion. The idea is that the genes encode for a percentile and the individuals compare probability distrubutions by comparing the outcome at that percentile.
+
+That means noone will compare two choices by their expected outcome.
