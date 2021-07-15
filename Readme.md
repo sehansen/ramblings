@@ -25,3 +25,9 @@ Toying a bit around with wavefile generation in Python. Will output two (ugly) t
 ## World of Warships Ships
 
 How much XP do I need to get to unlock the next unlockable ships in World of Warships, a game I play a little bit twice a year.
+
+## Water Distribution
+
+The beginnings of the water management parts of a city builder like Sim City 4 or Cities Skylines. In this case water pressure and such is also supposed to be needed to be taken into account (sentences, man, they're hard). So you'll actually need water towers for their height in the beginning, or maybe you have a hilly area and can build a dam for a reservoir.
+
+But now it just displays a random, very simple height map with Julia.
