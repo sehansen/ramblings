@@ -26,7 +26,7 @@ Toying a bit around with wavefile generation in Python. Will output two (ugly) t
 
 The beginnings of the water management parts of a city builder like Sim City 4 or Cities Skylines. In this case water pressure and such is also supposed to be needed to be taken into account (sentences, man, they're hard). So you'll actually need water towers for their height in the beginning, or maybe you have a hilly area and can build a dam for a reservoir.
 
-But now it just displays a random, very simple height map with Julia.
+But now it just displays a random, very simple height map in green, with a cool, random-dissolution-gradient of blue on top.
 
 ## World of Warships Ships
 
