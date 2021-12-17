@@ -31,3 +31,7 @@ But now it just displays a random, very simple height map in green, with a cool,
 ## World of Warships Ships
 
 How much XP do I need to get to unlock the next unlockable ships in World of Warships, a game I play a little bit twice a year.
+
+## Better Chunksize (Python Multiprocessing.starmap improvement)
+
+Created because I want to pass a list of chunksizes to starmap. The need arises from a problem with large per-process startup time, so the first process has time to process a significant part of it's workload before the second thread starts. The code here works if you pass the parameters correctly, but it'll fail if you do something wrong. Oh! The return values are gone in the void as well. 
