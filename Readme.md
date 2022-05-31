@@ -34,4 +34,8 @@ How much XP do I need to get to unlock the next unlockable ships in World of War
 
 ## Better Chunksize (Python Multiprocessing.starmap improvement)
 
-Created because I want to pass a list of chunksizes to starmap. The need arises from a problem with large per-process startup time, so the first process has time to process a significant part of it's workload before the second thread starts. The code here works if you pass the parameters correctly, but it'll fail if you do something wrong. Oh! The return values are gone in the void as well. 
+Created because I want to pass a list of chunksizes to starmap. The need arises from a problem with large per-process startup time, so the first process has time to process a significant part of it's workload before the second thread starts. The code here works if you pass the parameters correctly, but it'll fail if you do something wrong. Oh! The return values are gone in the void as well.
+
+## City Distance
+
+An attempt at simulating distances in time from an pre-modern city, inspired by [Bret Deveraux's ](https://acoup.blog/2019/07/19/the-lonely-city-part-ii-real-cities-have-curves/). Currently this simulated world is non-Euclidean since I'm using Manhattan distances.
