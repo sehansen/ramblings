@@ -42,4 +42,8 @@ An attempt at simulating distances in time from an pre-modern city, inspired by 
 
 ## Falling Group with Springs
 
-What happens if five 1 kg masses with compressed springs in between are dropped from some height with some initial lateral speed? 
+What happens if five 1 kg masses with compressed springs in between are dropped from some height with some initial lateral speed?
+
+## Random Walk Probs
+
+Recursively compute the probability of a random walk on $\mathbb{N} \union \left\{0\right\}$ being at number $k$ in generation $n$, with $k=0$ absorbing. Due to the stupid non-memoized recursive algorithm, this is $O\left(2^{n}\right)$!
