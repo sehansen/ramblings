@@ -47,3 +47,7 @@ What happens if five 1 kg masses with compressed springs in between are dropped 
 ## Random Walk Probs
 
 Recursively compute the probability of a random walk on $\mathbb{N} \union \left\{0\right\}$ being at number $k$ in generation $n$, with $k=0$ absorbing. Due to the stupid non-memoized recursive algorithm, this is $O\left(2^{n}\right)$!
+
+## Noisy Step
+
+Played around a tiny bit with how easy a step function is to recognize in presence of noise. Turns out it's very easy when you know exactly when the step occurs. Next step would be having an unknown step time.
