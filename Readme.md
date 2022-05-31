@@ -39,3 +39,7 @@ Created because I want to pass a list of chunksizes to starmap. The need arises 
 ## City Distance
 
 An attempt at simulating distances in time from an pre-modern city, inspired by [Bret Deveraux's ](https://acoup.blog/2019/07/19/the-lonely-city-part-ii-real-cities-have-curves/). Currently this simulated world is non-Euclidean since I'm using Manhattan distances.
+
+## Falling Group with Springs
+
+What happens if five 1 kg masses with compressed springs in between are dropped from some height with some initial lateral speed? 
