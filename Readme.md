@@ -46,7 +46,7 @@ What happens if five 1 kg masses with compressed springs in between are dropped 
 
 ## Random Walk Probs
 
-Recursively compute the probability of a random walk on $\mathbb{N} \union \left\{0\right\}$ being at number $k$ in generation $n$, with $k=0$ absorbing. Due to the stupid non-memoized recursive algorithm, this is $O\left(2^{n}\right)$!
+Recursively compute the probability of a random walk on $\mathbb{N} \cup \left\\{ 0 \right\\}$ being at number $k$ in generation $n$, with $k=0$ absorbing. Due to the stupid non-memoized recursive algorithm, this is $O\left(2^{n}\right)$!
 
 ## Noisy Step
 
